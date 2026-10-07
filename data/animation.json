@@ -1,0 +1,178 @@
+{
+  "source": "coldstart15_case{1,2}; SRAF guidance off",
+  "coordinate_crop_xyxy": [
+    451,
+    439,
+    1597,
+    1585
+  ],
+  "orientation": "x right, y up; array rows flipped for display",
+  "frames": [
+    [
+      {
+        "round": 0,
+        "source": "runs/coldstart15_case1/start/mask.npy",
+        "accepted": null
+      },
+      {
+        "round": 1,
+        "accepted": true,
+        "source": "runs/coldstart15_case1/round_000/candidate/mask.npy"
+      },
+      {
+        "round": 2,
+        "accepted": true,
+        "source": "runs/coldstart15_case1/round_001/candidate/mask.npy"
+      },
+      {
+        "round": 3,
+        "accepted": false,
+        "source": "runs/coldstart15_case1/round_001/candidate/mask.npy"
+      },
+      {
+        "round": 4,
+        "accepted": true,
+        "source": "runs/coldstart15_case1/round_003/candidate/mask.npy"
+      },
+      {
+        "round": 5,
+        "accepted": true,
+        "source": "runs/coldstart15_case1/round_004/candidate/mask.npy"
+      },
+      {
+        "round": 6,
+        "accepted": true,
+        "source": "runs/coldstart15_case1/round_005/candidate/mask.npy"
+      },
+      {
+        "round": 7,
+        "accepted": true,
+        "source": "runs/coldstart15_case1/round_006/candidate/mask.npy"
+      },
+      {
+        "round": 8,
+        "accepted": false,
+        "source": "runs/coldstart15_case1/round_006/candidate/mask.npy"
+      },
+      {
+        "round": 9,
+        "accepted": false,
+        "source": "runs/coldstart15_case1/round_006/candidate/mask.npy"
+      },
+      {
+        "round": 10,
+        "accepted": true,
+        "source": "runs/coldstart15_case1/round_009/candidate/mask.npy"
+      },
+      {
+        "round": 11,
+        "accepted": false,
+        "source": "runs/coldstart15_case1/round_009/candidate/mask.npy"
+      },
+      {
+        "round": 12,
+        "accepted": false,
+        "source": "runs/coldstart15_case1/round_009/candidate/mask.npy"
+      },
+      {
+        "round": 13,
+        "accepted": true,
+        "source": "runs/coldstart15_case1/round_012/candidate/mask.npy"
+      },
+      {
+        "round": 14,
+        "accepted": true,
+        "source": "runs/coldstart15_case1/round_013/candidate/mask.npy"
+      },
+      {
+        "round": 15,
+        "accepted": true,
+        "source": "runs/coldstart15_case1/round_014/candidate/mask.npy"
+      }
+    ],
+    [
+      {
+        "round": 0,
+        "source": "runs/coldstart15_case2/start/mask.npy",
+        "accepted": null
+      },
+      {
+        "round": 1,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_000/candidate/mask.npy"
+      },
+      {
+        "round": 2,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_001/candidate/mask.npy"
+      },
+      {
+        "round": 3,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_002/candidate/mask.npy"
+      },
+      {
+        "round": 4,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_003/candidate/mask.npy"
+      },
+      {
+        "round": 5,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_004/candidate/mask.npy"
+      },
+      {
+        "round": 6,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_005/candidate/mask.npy"
+      },
+      {
+        "round": 7,
+        "accepted": false,
+        "source": "runs/coldstart15_case2/round_005/candidate/mask.npy"
+      },
+      {
+        "round": 8,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_007/candidate/mask.npy"
+      },
+      {
+        "round": 9,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_008/candidate/mask.npy"
+      },
+      {
+        "round": 10,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_009/candidate/mask.npy"
+      },
+      {
+        "round": 11,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_010/candidate/mask.npy"
+      },
+      {
+        "round": 12,
+        "accepted": false,
+        "source": "runs/coldstart15_case2/round_010/candidate/mask.npy"
+      },
+      {
+        "round": 13,
+        "accepted": true,
+        "source": "runs/coldstart15_case2/round_012/candidate/mask.npy"
+      },
+      {
+        "round": 14,
+        "accepted": false,
+        "source": "runs/coldstart15_case2/round_012/candidate/mask.npy"
+      },
+      {
+        "round": 15,
+        "accepted": false,
+        "source": "runs/coldstart15_case2/round_012/candidate/mask.npy"
+      }
+    ]
+  ],
+  "transition": "smoothstep opacity crossfade, not an evaluated intermediate mask",
+  "duration_ms": 25240
+}

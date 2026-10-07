@@ -1,0 +1,17 @@
+method,source,paper_table,case,epe,pvband_nm2,l2_nm2
+MOSAIC,Original,I,1,6,65534,49893
+MOSAIC,Original,I,2,10,48230,50369
+MOSAIC,OpenILT,I,1,8,55028,48896
+MOSAIC,OpenILT,I,2,4,46019,37327
+LevelSet,Original,I,1,4,62693,46032
+LevelSet,Original,I,2,1,50724,36177
+LevelSet,OpenILT,I,1,6,57468,45520
+LevelSet,OpenILT,I,2,1,49680,33571
+GAN-OPC,Original,II,1,,58043,55425
+GAN-OPC,Original,II,2,,53020,40211
+GAN-OPC,OpenILT,II,1,20,52126,58712
+GAN-OPC,OpenILT,II,2,1,43861,36669
+MultiLevel,Original,II,1,3,46077,39303
+MultiLevel,Original,II,2,0,37626,28986
+MultiLevel,OpenILT,II,1,4,47367,38577
+MultiLevel,OpenILT,II,2,1,37572,32104

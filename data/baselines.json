@@ -1,0 +1,158 @@
+{
+  "paper": "https://www.cse.cuhk.edu.hk/~byu/papers/C179-ASICON2023-OpenILT.pdf",
+  "page": 3,
+  "rows": [
+    {
+      "method": "MOSAIC",
+      "source": "Original",
+      "table": "I",
+      "cases": [
+        {
+          "case": 1,
+          "epe": 6,
+          "pvband": 65534,
+          "l2": 49893
+        },
+        {
+          "case": 2,
+          "epe": 10,
+          "pvband": 48230,
+          "l2": 50369
+        }
+      ]
+    },
+    {
+      "method": "MOSAIC",
+      "source": "OpenILT",
+      "table": "I",
+      "cases": [
+        {
+          "case": 1,
+          "epe": 8,
+          "pvband": 55028,
+          "l2": 48896
+        },
+        {
+          "case": 2,
+          "epe": 4,
+          "pvband": 46019,
+          "l2": 37327
+        }
+      ]
+    },
+    {
+      "method": "LevelSet",
+      "source": "Original",
+      "table": "I",
+      "cases": [
+        {
+          "case": 1,
+          "epe": 4,
+          "pvband": 62693,
+          "l2": 46032
+        },
+        {
+          "case": 2,
+          "epe": 1,
+          "pvband": 50724,
+          "l2": 36177
+        }
+      ]
+    },
+    {
+      "method": "LevelSet",
+      "source": "OpenILT",
+      "table": "I",
+      "cases": [
+        {
+          "case": 1,
+          "epe": 6,
+          "pvband": 57468,
+          "l2": 45520
+        },
+        {
+          "case": 2,
+          "epe": 1,
+          "pvband": 49680,
+          "l2": 33571
+        }
+      ]
+    },
+    {
+      "method": "GAN-OPC",
+      "source": "Original",
+      "table": "II",
+      "cases": [
+        {
+          "case": 1,
+          "epe": null,
+          "pvband": 58043,
+          "l2": 55425
+        },
+        {
+          "case": 2,
+          "epe": null,
+          "pvband": 53020,
+          "l2": 40211
+        }
+      ]
+    },
+    {
+      "method": "GAN-OPC",
+      "source": "OpenILT",
+      "table": "II",
+      "cases": [
+        {
+          "case": 1,
+          "epe": 20,
+          "pvband": 52126,
+          "l2": 58712
+        },
+        {
+          "case": 2,
+          "epe": 1,
+          "pvband": 43861,
+          "l2": 36669
+        }
+      ]
+    },
+    {
+      "method": "MultiLevel",
+      "source": "Original",
+      "table": "II",
+      "cases": [
+        {
+          "case": 1,
+          "epe": 3,
+          "pvband": 46077,
+          "l2": 39303
+        },
+        {
+          "case": 2,
+          "epe": 0,
+          "pvband": 37626,
+          "l2": 28986
+        }
+      ]
+    },
+    {
+      "method": "MultiLevel",
+      "source": "OpenILT",
+      "table": "II",
+      "cases": [
+        {
+          "case": 1,
+          "epe": 4,
+          "pvband": 47367,
+          "l2": 38577
+        },
+        {
+          "case": 2,
+          "epe": 1,
+          "pvband": 37572,
+          "l2": 32104
+        }
+      ]
+    }
+  ]
+}

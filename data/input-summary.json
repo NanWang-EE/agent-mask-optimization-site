@@ -1,0 +1,28 @@
+{
+  "case_id": "M1_test1",
+  "round": 1,
+  "initialization": "original target cold start",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "max",
+  "editable_primary_segments": 208,
+  "fixed_auxiliary_probes": 624,
+  "history_rounds": 0,
+  "metrics": {
+    "l2": 116184,
+    "pvband": 45874,
+    "epe": 86,
+    "epe_in": 65,
+    "epe_out": 21
+  },
+  "pvband_ceiling": 73398.4,
+  "step_limit": null,
+  "changed_edge_count_limit": null,
+  "sraf_guidance": "off",
+  "inputs": [
+    "overview.png",
+    "hotspots.png",
+    "instruction text",
+    "geometry and measured feedback (full state retained locally)"
+  ],
+  "scope": "Public input summary; full geometry and simulator state are not included."
+}

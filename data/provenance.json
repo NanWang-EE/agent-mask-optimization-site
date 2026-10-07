@@ -1,0 +1,259 @@
+{
+  "sources": [
+    {
+      "path": "results/model15_study/summary.csv",
+      "sha256": "9522149f0418b9d7600baaa9a03f0745dbb6c134ea6bcc5ab21a286ed23b2f61"
+    },
+    {
+      "path": "results/model15_study/rounds.csv",
+      "sha256": "68f5caf1e12714d6468dab7291735478d4d11b5850550e6e43dda900d122bbe6"
+    },
+    {
+      "path": "runs/coldstart15_case1/start/mask.npy",
+      "sha256": "9ae011314cd53db19e9a9ff4597f4468cd98d0ceac7911dd6448e25f38ea4862"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_000/trial.json",
+      "sha256": "02ec454f0cb3927b7e7525cd65058930401aec7a4b8db197f3d49b55db77e8bb"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_000/candidate/mask.npy",
+      "sha256": "e568d40b12876b1ab6f2dbbd462465e2f47477d3f1d658e22d0097475418427e"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_001/trial.json",
+      "sha256": "d6d0af11a94c1b50c3da20ce67feeef97abb359428bb1f82e535571e550254a1"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_001/candidate/mask.npy",
+      "sha256": "aebfacd60b1dd58d7412790e1252d21b8c5b4b6b98e51ecb30d5a74d059f3f02"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_002/trial.json",
+      "sha256": "a93eb27ac651b07144c780db1a3a8ed7d15d50a252ce19587b9b7f2573ec9c66"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_003/trial.json",
+      "sha256": "3e042d92ff1e06be98236e8200edae51d999a64557e59d8be319678d8dc70c94"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_003/candidate/mask.npy",
+      "sha256": "04a39db92e24528fb49e7b94fde090eae90247ede50f55564eb06b8e1dc8d653"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_004/trial.json",
+      "sha256": "0cf63c57c35b06132300f9a94ca0e567e1c8bd0f3c63d69611d679215341b2c8"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_004/candidate/mask.npy",
+      "sha256": "d0fc192f03d2fb1edaad61745ad27cb0438619c5af1270d8934c21f7cee3ae0d"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_005/trial.json",
+      "sha256": "85dc23d134b95e5becba93c66df4cb97881510159840b09d3c8ee62921e478fc"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_005/candidate/mask.npy",
+      "sha256": "342f7d7727555815a125c80badbceb1833d5410bb18af1fea5d5d97191d0976a"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_006/trial.json",
+      "sha256": "9dee793090c9113d29f50ea96fdc734b99739b6f8618cbc6d932d53e350242cc"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_006/candidate/mask.npy",
+      "sha256": "e7d9959f748b56c85c8be7fad24e365c4687143e2fbe4ee3f421e5b5720dd855"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_007/trial.json",
+      "sha256": "bf111630e251dadc776a9c39b0b02d58388d14ea52f813b099da28d36de83af0"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_008/trial.json",
+      "sha256": "20e1792f24e4a702a818772d8abf7be6d8b8315272b83fe7f776a501d1dca6df"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_009/trial.json",
+      "sha256": "532bb10da8c9f7accd34a974cc1c44a213102e9f76d50f0f0f1da937eaebfd02"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_009/candidate/mask.npy",
+      "sha256": "5c3b9d33b2398e82991d8f0fa49b4cef08c8f56db48c9fef29001a402c873f50"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_010/trial.json",
+      "sha256": "d901b04b08ada290879c9e51eb3cf8ab1d6712251cd0ea16fc5e2c19089529cf"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_011/trial.json",
+      "sha256": "160c043888f7be7907a0047cc84a5e74306c9b3b379bacb5a350cea88edf43a4"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_012/trial.json",
+      "sha256": "ceb3f83083809ca2e5d3f2da71ba4762b6e01a3e1de3a49097689e6f4a17bdb0"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_012/candidate/mask.npy",
+      "sha256": "0047f4e50a38a2e2e27ec0b5e08a4fb54b805e9f48d444de18777f64c5630ae1"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_013/trial.json",
+      "sha256": "2d385d249df59f0a56578417345332868cbf1791043b342e1dc91b46d00835c8"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_013/candidate/mask.npy",
+      "sha256": "17ef1ed84460d23ccd1cb7bf80a404a22a5f692daf010556a8f0f2757085c5c0"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_014/trial.json",
+      "sha256": "91b371ce9a62090b99c3ab0c602426cc455dc792d6a9c719e7d9aa72c6173167"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_014/candidate/mask.npy",
+      "sha256": "f790996bd18897e23de0135f1bcd03d57a6002eada52363c5a8db4dd1647ed98"
+    },
+    {
+      "path": "runs/coldstart15_case2/start/mask.npy",
+      "sha256": "f8882c370cbd7c2dc0f1453b800a941b5f5c9489e5db1bb69819a4acb7b2568c"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_000/trial.json",
+      "sha256": "0a846072eaf2662fae7d8095f3556664a1380ce6d829f9acaaea2b69f75c4511"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_000/candidate/mask.npy",
+      "sha256": "43324db65e9a6d126e7b4e42d5e51173e5c00df18ceb85637c37ccf3dd40cf71"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_001/trial.json",
+      "sha256": "fa0748063f85533142613d2eadf7a36cf5e866dc8e5061abbd53580d8cd0b5da"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_001/candidate/mask.npy",
+      "sha256": "9a43915ec9a2b00817c8785712b1475da0a19b27978d2144cba620557e04fadd"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_002/trial.json",
+      "sha256": "d5342c52cdc17dd1d2b24fded1addb7dac6bfcc36e2d1e01644a6d0bc7685c28"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_002/candidate/mask.npy",
+      "sha256": "6c6ad1a991fac1adf928303373d4d1a6ea481de8d40904c1b5aeb3344fbdd010"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_003/trial.json",
+      "sha256": "1158cdfb6082380f7c4080271dc3dead026dbdca9d12d47edcc186f8a18fbfdf"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_003/candidate/mask.npy",
+      "sha256": "785d916fcb6bf6bd3a75262064197033b50f635103d87726191d50975ee7bbbf"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_004/trial.json",
+      "sha256": "9440b0212e72a97e53705524e51e146c3d007f9283ae1cc5d56088bc3e08f41f"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_004/candidate/mask.npy",
+      "sha256": "1718b8b35f4ef935c3907e1d8ce7eaeef955c58bbb32b414ca77d365ff520e3d"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_005/trial.json",
+      "sha256": "09543acb638859d8a5c3656e1aec3550fbd5df1288a07a3dbd986683724f8f6a"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_005/candidate/mask.npy",
+      "sha256": "9cd12c87b0f42a8563c1959ac5e989a99e8ae24112d91f0247d71a60f7364ee1"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_006/trial.json",
+      "sha256": "b2bb659c2330c2d13cde0a04dc002d5e1d84f6f88ff130aceadb179ce781f0f0"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_007/trial.json",
+      "sha256": "0b4730b71e3302ab244a5679df4fee3a0ba557e149110150ac72a0a7b4a6e3cb"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_007/candidate/mask.npy",
+      "sha256": "e0c1ae51b5761e5dc13799e99526effef9323fbb8f8151e21d3f486b71395c82"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_008/trial.json",
+      "sha256": "2b39b85153a467f9bc5ad3a4a6c10395d686973c38acb2102d6640f1a7eb9c94"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_008/candidate/mask.npy",
+      "sha256": "75be57c97f9bae14e1326bd617aadb34c073beb7baeb1fd8791ced85ebb70ab3"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_009/trial.json",
+      "sha256": "605148854a0e0d323eb31dd83cfe609349e8061257ac442fbac7f2053f7bdc1c"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_009/candidate/mask.npy",
+      "sha256": "21a8a776d9f68e441ad5c9aa95dd3e64c94129cf7bced2c156d0cf3ce14a4167"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_010/trial.json",
+      "sha256": "5bc5b7ceb0c9a0293ee6a917f5cb3a6d497fbe30bb2d70b0a40cb2e1075c9bef"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_010/candidate/mask.npy",
+      "sha256": "d1c509f5c6eec0249f69ba3673871e9cd0b410dea254a7c489a2aec5a73d9b75"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_011/trial.json",
+      "sha256": "1bbe9fd01064cacc3499c984e54c3790dd16d745cfb92d5b62678c7012d699fe"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_012/trial.json",
+      "sha256": "1a174b15c701272f946949861027e786442e9a587d4cd8d5ebd30fc769e91744"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_012/candidate/mask.npy",
+      "sha256": "f574fcffd946f38785a07d2313e1258c79de069e76cfe5bade8cc9de75491ebc"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_013/trial.json",
+      "sha256": "c1b2cea95698d83ed021df33f120327143e2c2aa4332b499a8b747082e62d35d"
+    },
+    {
+      "path": "runs/coldstart15_case2/round_014/trial.json",
+      "sha256": "cba7f5bf3fc7f810a8f5d3a00999765f139d99feaa5dd782a3e865edbc6d1749"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_000/input/overview.png",
+      "sha256": "2ad064686389675e742c262bc6a070c81d2c633304589ec7e7b86b37c7da2603"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_000/input/hotspots.png",
+      "sha256": "28645bc21ebffe42bed442c7c7059488f13209667eb393347a17e833ac6754ba"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_000/codex/prompt.txt",
+      "sha256": "8398ab9e7275004e9e8fdefda9b3d3679c01dabf59e74b8859b95112751315df"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_000/state.json",
+      "sha256": "3d76290a67653fa603321e6a9469641dd1e55e39a60222020fc129daaae25b9c"
+    },
+    {
+      "path": "runs/coldstart15_case1/round_000/proposal.json",
+      "sha256": "6871b764b22f96808e6a5000ffd4068ae2dce7d0dd8bbe690dbd318bf0cc9b8b"
+    }
+  ],
+  "paper": {
+    "url": "https://www.cse.cuhk.edu.hk/~byu/papers/C179-ASICON2023-OpenILT.pdf",
+    "page": 3,
+    "tables": [
+      "I",
+      "II"
+    ],
+    "scope": "Only case1 and case2; no 10-case averages used."
+  },
+  "notes": [
+    "No new simulation or model calls.",
+    "Round numbers on the site are 1-based; stored iteration numbers are 0-based.",
+    "Public example omits raw internal event streams; only final structured proposal is exported.",
+    "Absolute workspace paths, if present in the example input, are replaced with [workspace]."
+  ]
+}

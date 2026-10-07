@@ -1,0 +1,61 @@
+{
+  "case": 1,
+  "round": 1,
+  "before": {
+    "l2": 116184,
+    "pvband": 45874,
+    "epe": 86,
+    "epe_in": 65,
+    "epe_out": 21
+  },
+  "after": {
+    "l2": 70638,
+    "pvband": 56602,
+    "epe": 29,
+    "epe_in": 3,
+    "epe_out": 26
+  },
+  "accepted": true,
+  "reason": "improved_epe_then_l2",
+  "summary": "Test coherent end extensions, weak p1/p7 feature widening, and coupled-overprint trimming. Improvement and compliance with the fixed PVBand ceiling remain unmeasured.",
+  "moves": 99,
+  "segments": 208,
+  "pvband_limit": 73398.40000000001,
+  "sampleMoves": [
+    {
+      "edge_id": "p0:e0:f4",
+      "delta_grid": -4,
+      "reason": "Taper contraction into the visibly overprinted lower face."
+    },
+    {
+      "edge_id": "p0:e0:f5",
+      "delta_grid": -8,
+      "reason": "Grade contraction toward measured lower-face overshoot."
+    },
+    {
+      "edge_id": "p0:e0:f6",
+      "delta_grid": -12,
+      "reason": "Nominal bottom probes show 16-21-grid outward error."
+    },
+    {
+      "edge_id": "p0:e0:f7",
+      "delta_grid": -8,
+      "reason": "Continue lower-bulge trimming while retaining end-corner support."
+    },
+    {
+      "edge_id": "p0:e1:f0",
+      "delta_grid": 28,
+      "reason": "Keep the lower corner coherent with the recessed right end."
+    },
+    {
+      "edge_id": "p0:e1:f1",
+      "delta_grid": 28,
+      "reason": "Right-end probes show 23-26-grid nominal recession."
+    },
+    {
+      "edge_id": "p0:e1:f2",
+      "delta_grid": 28,
+      "reason": "Keep the upper corner coherent with the right-end extension."
+    }
+  ]
+}

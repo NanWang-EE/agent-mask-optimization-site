@@ -1,0 +1,1106 @@
+[
+  {
+    "case": 1,
+    "variant": "astra",
+    "label": "Astra 6",
+    "model": "gpt-6-astra",
+    "color": "#c6f58b",
+    "points": [
+      {
+        "round": 0,
+        "epe": 86,
+        "l2": 116184,
+        "pvband": 45874,
+        "accepted": null
+      },
+      {
+        "round": 1,
+        "epe": 29,
+        "l2": 70638,
+        "pvband": 56602,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 2,
+        "epe": 22,
+        "l2": 63392,
+        "pvband": 60388,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 3,
+        "epe": 22,
+        "l2": 63392,
+        "pvband": 60388,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 4,
+        "epe": 14,
+        "l2": 60633,
+        "pvband": 61198,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 5,
+        "epe": 7,
+        "l2": 50024,
+        "pvband": 65766,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 6,
+        "epe": 3,
+        "l2": 50790,
+        "pvband": 63298,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 7,
+        "epe": 2,
+        "l2": 47975,
+        "pvband": 64171,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 8,
+        "epe": 2,
+        "l2": 47975,
+        "pvband": 64171,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 9,
+        "epe": 2,
+        "l2": 47975,
+        "pvband": 64171,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 10,
+        "epe": 0,
+        "l2": 48124,
+        "pvband": 63773,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 11,
+        "epe": 0,
+        "l2": 48124,
+        "pvband": 63773,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 12,
+        "epe": 0,
+        "l2": 48124,
+        "pvband": 63773,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 13,
+        "epe": 0,
+        "l2": 47587,
+        "pvband": 63798,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 14,
+        "epe": 0,
+        "l2": 47058,
+        "pvband": 63874,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 15,
+        "epe": 0,
+        "l2": 46806,
+        "pvband": 63908,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      }
+    ],
+    "historical": true,
+    "finalSrafs": 0
+  },
+  {
+    "case": 1,
+    "variant": "sol6",
+    "label": "Sol 6",
+    "model": "gpt-6-sol",
+    "color": "#8fbafa",
+    "points": [
+      {
+        "round": 0,
+        "epe": 86,
+        "l2": 116184,
+        "pvband": 45874,
+        "accepted": null
+      },
+      {
+        "round": 1,
+        "epe": 86,
+        "l2": 116184,
+        "pvband": 45874,
+        "accepted": false,
+        "reason": "geometry_rejected: edit collapses or reverses fragment p7:e3:f2"
+      },
+      {
+        "round": 2,
+        "epe": 86,
+        "l2": 116184,
+        "pvband": 45874,
+        "accepted": false,
+        "reason": "invalid_proposal"
+      },
+      {
+        "round": 3,
+        "epe": 57,
+        "l2": 98357,
+        "pvband": 52092,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 4,
+        "epe": 48,
+        "l2": 82798,
+        "pvband": 51049,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 5,
+        "epe": 48,
+        "l2": 82798,
+        "pvband": 51049,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 6,
+        "epe": 48,
+        "l2": 82798,
+        "pvband": 51049,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 7,
+        "epe": 25,
+        "l2": 65525,
+        "pvband": 54271,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 8,
+        "epe": 23,
+        "l2": 63136,
+        "pvband": 64216,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 9,
+        "epe": 23,
+        "l2": 63136,
+        "pvband": 64216,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 10,
+        "epe": 10,
+        "l2": 53634,
+        "pvband": 60756,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 11,
+        "epe": 10,
+        "l2": 53634,
+        "pvband": 60756,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 12,
+        "epe": 4,
+        "l2": 51439,
+        "pvband": 60837,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 13,
+        "epe": 3,
+        "l2": 51553,
+        "pvband": 60903,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 14,
+        "epe": 2,
+        "l2": 52176,
+        "pvband": 60829,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 15,
+        "epe": 2,
+        "l2": 52176,
+        "pvband": 60829,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      }
+    ],
+    "historical": false,
+    "finalSrafs": 0
+  },
+  {
+    "case": 1,
+    "variant": "sol56",
+    "label": "Sol 5.6",
+    "model": "gpt-5.6-sol",
+    "color": "#eab48b",
+    "points": [
+      {
+        "round": 0,
+        "epe": 86,
+        "l2": 116184,
+        "pvband": 45874,
+        "accepted": null
+      },
+      {
+        "round": 1,
+        "epe": 55,
+        "l2": 91791,
+        "pvband": 50241,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 2,
+        "epe": 39,
+        "l2": 81794,
+        "pvband": 51499,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 3,
+        "epe": 18,
+        "l2": 67828,
+        "pvband": 58475,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 4,
+        "epe": 18,
+        "l2": 67828,
+        "pvband": 58475,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 5,
+        "epe": 17,
+        "l2": 66867,
+        "pvband": 59336,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 6,
+        "epe": 6,
+        "l2": 55898,
+        "pvband": 58644,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 7,
+        "epe": 4,
+        "l2": 55368,
+        "pvband": 59826,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 8,
+        "epe": 4,
+        "l2": 55368,
+        "pvband": 59826,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 9,
+        "epe": 4,
+        "l2": 55368,
+        "pvband": 59826,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 10,
+        "epe": 4,
+        "l2": 55292,
+        "pvband": 59774,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 11,
+        "epe": 3,
+        "l2": 55226,
+        "pvband": 59756,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 12,
+        "epe": 2,
+        "l2": 55337,
+        "pvband": 59713,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 13,
+        "epe": 2,
+        "l2": 55337,
+        "pvband": 59713,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 14,
+        "epe": 2,
+        "l2": 55337,
+        "pvband": 59713,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 15,
+        "epe": 2,
+        "l2": 55337,
+        "pvband": 59713,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      }
+    ],
+    "historical": false,
+    "finalSrafs": 0
+  },
+  {
+    "case": 1,
+    "variant": "astra_sraf",
+    "label": "Astra 6 + SRAF guidance",
+    "model": "gpt-6-astra",
+    "color": "#be9ce8",
+    "points": [
+      {
+        "round": 0,
+        "epe": 86,
+        "l2": 116184,
+        "pvband": 45874,
+        "accepted": null
+      },
+      {
+        "round": 1,
+        "epe": 42,
+        "l2": 76384,
+        "pvband": 58684,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 2,
+        "epe": 42,
+        "l2": 76384,
+        "pvband": 58684,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 3,
+        "epe": 42,
+        "l2": 76384,
+        "pvband": 58684,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 4,
+        "epe": 38,
+        "l2": 71469,
+        "pvband": 61617,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 5,
+        "epe": 32,
+        "l2": 67611,
+        "pvband": 63874,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 6,
+        "epe": 26,
+        "l2": 63209,
+        "pvband": 63199,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 7,
+        "epe": 18,
+        "l2": 56970,
+        "pvband": 62963,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 8,
+        "epe": 18,
+        "l2": 56970,
+        "pvband": 62963,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 9,
+        "epe": 18,
+        "l2": 56970,
+        "pvband": 62963,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 10,
+        "epe": 16,
+        "l2": 54914,
+        "pvband": 61638,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 11,
+        "epe": 11,
+        "l2": 52582,
+        "pvband": 61378,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 12,
+        "epe": 11,
+        "l2": 52582,
+        "pvband": 61378,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 13,
+        "epe": 11,
+        "l2": 52582,
+        "pvband": 61378,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 14,
+        "epe": 10,
+        "l2": 52116,
+        "pvband": 61516,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 15,
+        "epe": 9,
+        "l2": 51945,
+        "pvband": 63781,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      }
+    ],
+    "historical": false,
+    "finalSrafs": 2
+  },
+  {
+    "case": 2,
+    "variant": "astra",
+    "label": "Astra 6",
+    "model": "gpt-6-astra",
+    "color": "#c6f58b",
+    "points": [
+      {
+        "round": 0,
+        "epe": 84,
+        "l2": 117802,
+        "pvband": 37035,
+        "accepted": null
+      },
+      {
+        "round": 1,
+        "epe": 78,
+        "l2": 93915,
+        "pvband": 45480,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 2,
+        "epe": 25,
+        "l2": 57001,
+        "pvband": 43847,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 3,
+        "epe": 15,
+        "l2": 48481,
+        "pvband": 58621,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 4,
+        "epe": 2,
+        "l2": 40773,
+        "pvband": 47165,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 5,
+        "epe": 0,
+        "l2": 38855,
+        "pvband": 49259,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 6,
+        "epe": 0,
+        "l2": 33821,
+        "pvband": 54373,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 7,
+        "epe": 0,
+        "l2": 33821,
+        "pvband": 54373,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 8,
+        "epe": 0,
+        "l2": 33475,
+        "pvband": 54433,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 9,
+        "epe": 0,
+        "l2": 33354,
+        "pvband": 54440,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 10,
+        "epe": 0,
+        "l2": 33247,
+        "pvband": 54433,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 11,
+        "epe": 0,
+        "l2": 33200,
+        "pvband": 54431,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 12,
+        "epe": 0,
+        "l2": 33200,
+        "pvband": 54431,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 13,
+        "epe": 0,
+        "l2": 31511,
+        "pvband": 54987,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 14,
+        "epe": 0,
+        "l2": 31511,
+        "pvband": 54987,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 15,
+        "epe": 0,
+        "l2": 31511,
+        "pvband": 54987,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      }
+    ],
+    "historical": true,
+    "finalSrafs": 0
+  },
+  {
+    "case": 2,
+    "variant": "sol6",
+    "label": "Sol 6",
+    "model": "gpt-6-sol",
+    "color": "#8fbafa",
+    "points": [
+      {
+        "round": 0,
+        "epe": 84,
+        "l2": 117802,
+        "pvband": 37035,
+        "accepted": null
+      },
+      {
+        "round": 1,
+        "epe": 84,
+        "l2": 117802,
+        "pvband": 37035,
+        "accepted": false,
+        "reason": "geometry_rejected: edit collapses or reverses fragment p0:e2:f5"
+      },
+      {
+        "round": 2,
+        "epe": 84,
+        "l2": 117802,
+        "pvband": 37035,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 3,
+        "epe": 66,
+        "l2": 86698,
+        "pvband": 40891,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 4,
+        "epe": 34,
+        "l2": 70189,
+        "pvband": 39428,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 5,
+        "epe": 14,
+        "l2": 43856,
+        "pvband": 54891,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 6,
+        "epe": 2,
+        "l2": 39326,
+        "pvband": 49662,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 7,
+        "epe": 2,
+        "l2": 39326,
+        "pvband": 49662,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 8,
+        "epe": 0,
+        "l2": 38793,
+        "pvband": 50602,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 9,
+        "epe": 0,
+        "l2": 38259,
+        "pvband": 51139,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 10,
+        "epe": 0,
+        "l2": 38259,
+        "pvband": 51139,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 11,
+        "epe": 0,
+        "l2": 37688,
+        "pvband": 51120,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 12,
+        "epe": 0,
+        "l2": 37688,
+        "pvband": 51120,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 13,
+        "epe": 0,
+        "l2": 37688,
+        "pvband": 51120,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 14,
+        "epe": 0,
+        "l2": 37688,
+        "pvband": 51120,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 15,
+        "epe": 0,
+        "l2": 37688,
+        "pvband": 51120,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      }
+    ],
+    "historical": false,
+    "finalSrafs": 0
+  },
+  {
+    "case": 2,
+    "variant": "sol56",
+    "label": "Sol 5.6",
+    "model": "gpt-5.6-sol",
+    "color": "#eab48b",
+    "points": [
+      {
+        "round": 0,
+        "epe": 84,
+        "l2": 117802,
+        "pvband": 37035,
+        "accepted": null
+      },
+      {
+        "round": 1,
+        "epe": 84,
+        "l2": 117802,
+        "pvband": 37035,
+        "accepted": false,
+        "reason": "geometry_rejected: edit collapses or reverses fragment p0:e2:f5"
+      },
+      {
+        "round": 2,
+        "epe": 84,
+        "l2": 117802,
+        "pvband": 37035,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 3,
+        "epe": 62,
+        "l2": 86015,
+        "pvband": 44006,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 4,
+        "epe": 21,
+        "l2": 56701,
+        "pvband": 44538,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 5,
+        "epe": 16,
+        "l2": 50923,
+        "pvband": 48301,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 6,
+        "epe": 6,
+        "l2": 46683,
+        "pvband": 48808,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 7,
+        "epe": 2,
+        "l2": 46122,
+        "pvband": 48384,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 8,
+        "epe": 0,
+        "l2": 45673,
+        "pvband": 48685,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 9,
+        "epe": 0,
+        "l2": 45404,
+        "pvband": 48918,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 10,
+        "epe": 0,
+        "l2": 44720,
+        "pvband": 49433,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 11,
+        "epe": 0,
+        "l2": 44720,
+        "pvband": 49433,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 12,
+        "epe": 0,
+        "l2": 44720,
+        "pvband": 49433,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 13,
+        "epe": 0,
+        "l2": 44338,
+        "pvband": 49910,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 14,
+        "epe": 0,
+        "l2": 44338,
+        "pvband": 49910,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 15,
+        "epe": 0,
+        "l2": 44338,
+        "pvband": 49910,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      }
+    ],
+    "historical": false,
+    "finalSrafs": 0
+  },
+  {
+    "case": 2,
+    "variant": "astra_sraf",
+    "label": "Astra 6 + SRAF guidance",
+    "model": "gpt-6-astra",
+    "color": "#be9ce8",
+    "points": [
+      {
+        "round": 0,
+        "epe": 84,
+        "l2": 117802,
+        "pvband": 37035,
+        "accepted": null
+      },
+      {
+        "round": 1,
+        "epe": 57,
+        "l2": 94554,
+        "pvband": 41540,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 2,
+        "epe": 43,
+        "l2": 77498,
+        "pvband": 39957,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 3,
+        "epe": 28,
+        "l2": 56881,
+        "pvband": 42700,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 4,
+        "epe": 10,
+        "l2": 44790,
+        "pvband": 52806,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 5,
+        "epe": 0,
+        "l2": 42310,
+        "pvband": 48752,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 6,
+        "epe": 0,
+        "l2": 42310,
+        "pvband": 48752,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 7,
+        "epe": 0,
+        "l2": 37859,
+        "pvband": 50799,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 8,
+        "epe": 0,
+        "l2": 36429,
+        "pvband": 52145,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 9,
+        "epe": 0,
+        "l2": 36429,
+        "pvband": 52145,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 10,
+        "epe": 0,
+        "l2": 36181,
+        "pvband": 56642,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      },
+      {
+        "round": 11,
+        "epe": 0,
+        "l2": 36181,
+        "pvband": 56642,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 12,
+        "epe": 0,
+        "l2": 36181,
+        "pvband": 56642,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 13,
+        "epe": 0,
+        "l2": 36181,
+        "pvband": 56642,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 14,
+        "epe": 0,
+        "l2": 36181,
+        "pvband": 56642,
+        "accepted": false,
+        "reason": "no_lexicographic_epe_l2_improvement"
+      },
+      {
+        "round": 15,
+        "epe": 0,
+        "l2": 33009,
+        "pvband": 56870,
+        "accepted": true,
+        "reason": "improved_epe_then_l2"
+      }
+    ],
+    "historical": false,
+    "finalSrafs": 0
+  }
+]

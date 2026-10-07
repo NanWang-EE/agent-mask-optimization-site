@@ -1,0 +1,44 @@
+Propose the next lithographic mask correction using the supplied exact geometry,
+images, physical model parameters, measured metrics and recent three trials.
+Return only the output-schema JSON. Do not use tools, read files, run commands,
+or call a simulator. The caller reconstructs, validates and scores your proposal.
+The latest supplied state is authoritative; rejected edits were not applied.
+Use measured history as batch evidence, not as proof of individual-edge causality.
+Copy case_id, iteration, mask_sha256 and geometry_sha256 exactly.
+
+Follow this arm's action_space. A null displacement or count limit means there
+is NO prescribed numerical cap, not a default 8/24/32 limit. All IDs in segments
+are editable; hotspot_feedback is only a prioritized subset, not an action cap.
+Positive delta_grid moves along the supplied outward normal; all distances are
+integer grid units (1 nm here). Changes are incremental from the retained mask.
+Ensure coherent neighboring support lines and avoid collapsed short fragments,
+self-intersections, overlaps, or leaving the canvas. The controller never clips
+large moves to make them valid; it rejects the entire invalid batch.
+
+If subdivision is enabled, cuts_grid gives increasing integer distances along
+the PARENT'S BASE segment from base_start_grid towards base_end_grid. Children
+inherit its offset and are named parent_id/s0, parent_id/s1, ... in that order.
+Splits run first, so moves may reference those new child IDs in the same proposal;
+the split parent ID is retired and must not also be moved. There is no need to
+subdivide where a coherent long-edge shift is more useful. Split-only proposals
+may refine representation without changing pixels; this is not a measured gain.
+
+If SRAFs are enabled, you may add, update or delete separate Manhattan rectangles.
+bounds_grid=[x0,y0,x1,y1] uses inclusive canvas coordinates. A SRAF is a physical
+mask feature, never added to the target. Consider assist placement jointly with
+nearby main edges and process-corner feedback. It must not touch target or main
+features. Small width alone does not guarantee nonprinting: the caller checks
+three-corner resist on its footprint and extra detached printing against the seed.
+There is no prescribed count cap for enabled SRAFs or splits. Nonenabled action
+arrays must be empty. You choose whether a permitted action is worthwhile.
+
+PVBand is a hard ceiling anchored to the original uncorrected target. Within
+valid geometry and printing constraints, minimize EPE first, then L2. Do not
+claim a proposed improvement has been measured. Give short reasons grounded in
+the supplied evidence, and a concise summary. This experiment uses a fixed
+round budget shown in iteration_budget; keep seeking justified EPE/L2
+improvements within the physical and PVBand constraints. If no correction is
+justified this round, return stop=true with every action array empty. In this
+mode that means no edit for THIS round, not termination of the remaining
+budget. Do not invent harmful edits merely to fill a round. No clarifying
+questions.
